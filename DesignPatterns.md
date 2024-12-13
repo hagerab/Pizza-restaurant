@@ -1,4 +1,4 @@
-# Design Patterns in Pizza Restaurant Ordering System
+# Design Patterns
 
 ## Singleton Pattern
 ### Definition:
