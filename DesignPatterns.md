@@ -33,4 +33,12 @@ Adding new toppings is straightforward. We can create a new decorator class for 
 ## Overengineering
 Overengineering occurs when a system is designed with unnecessary complexity, often leading to wasted resources and effort. In our pizza restaurant system, an example of overengineering would be creating an extensive hierarchy of classes for every possible pizza topping instead of using the Decorator pattern.
 
+```
+class CheesePizzaWithOlivesAndMushrooms(Pizza):
+    def get_description(self) -> str:
+        return "Cheese Pizza, Olives, Mushrooms"
+    
+    def get_cost(self) -> float:
+        return 7.2  # Hardcoded price
+```
 
